@@ -16,7 +16,6 @@ header img {
 
 main {
     height: calc(100vh - 220px);
-    overflow-y: auto;
 }
 
 #grid-container {
@@ -26,7 +25,6 @@ main {
 }
 
 #grid-container > * {
-    height: 125px;
     display: flex;
     flex-wrap: wrap;
     border: 1px solid black;
@@ -39,14 +37,17 @@ main {
 
 .easy {
     width: calc(100% / 7);
+    height: 95px;
 }
 
 .intermediate {
     width: calc(100% / 9);
+    height: 75px;
 }
 
 .hard {
     width: calc(100% / 10);
+    height: 67px;
 }
 
 
